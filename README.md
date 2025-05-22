@@ -67,6 +67,10 @@ Para utilizar un servidor RabbitMQ diferente, modifique la configuración en los
    ```
    dotnet run --project Producer/Producer.csproj
    ```
+4 Ejecutar la interfaz gráfica AlertMonitorUI:
+   ```
+   dotnet run --project AlertMonitorUI
+   ```
 
 ## Flujo de Mensajes
 
