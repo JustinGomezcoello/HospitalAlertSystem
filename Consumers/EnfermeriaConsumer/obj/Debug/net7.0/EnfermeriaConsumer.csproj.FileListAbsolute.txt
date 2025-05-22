@@ -1,0 +1,6 @@
+D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.csproj.AssemblyReference.cache
+D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.AssemblyInfoInputs.cache
+D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.AssemblyInfo.cs
+D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.csproj.CoreCompileInputs.cache
+D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.sourcelink.json

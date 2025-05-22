@@ -51,14 +51,14 @@ namespace Producer
 
             // Declarar el exchange directo para enrutamiento específico
             _channel.ExchangeDeclare(
-                exchange: Constants.DirectExchangeName,
+                exchange: Domain.Constants.DirectExchangeName,
                 type: ExchangeType.Direct,
                 durable: true,
                 autoDelete: false);
 
             // Declarar el exchange fanout para broadcast de alertas críticas
             _channel.ExchangeDeclare(
-                exchange: Constants.FanoutExchangeName,
+                exchange: Domain.Constants.FanoutExchangeName,
                 type: ExchangeType.Fanout,
                 durable: true,
                 autoDelete: false);
@@ -73,7 +73,7 @@ namespace Producer
         {
             Console.WriteLine("\n🔔 Generador de alertas iniciado. Presione Ctrl+C para detener.\n");
 
-            while (true)
+            for (int i = 0; i < 5; i++)
             {
                 try
                 {
@@ -186,7 +186,7 @@ namespace Producer
 
             // Publicar en el exchange directo para enrutamiento específico
             _channel.BasicPublish(
-                exchange: Constants.DirectExchangeName,
+                exchange: Domain.Constants.DirectExchangeName,
                 routingKey: routingKey,
                 basicProperties: null,
                 body: body);
@@ -195,7 +195,7 @@ namespace Producer
             if (alert.Severity == AlertSeverity.Critica)
             {
                 _channel.BasicPublish(
-                    exchange: Constants.FanoutExchangeName,
+                    exchange: Domain.Constants.FanoutExchangeName,
                     routingKey: string.Empty,  // Fanout ignora la routing key
                     basicProperties: null,
                     body: body);
@@ -226,9 +226,9 @@ namespace Producer
         {
             return type switch
             {
-                AlertType.Emergencia => Constants.EmergenciaRoutingKey,
-                AlertType.Enfermeria => Constants.EnfermeriaRoutingKey,
-                AlertType.Mantenimiento => Constants.MantenimientoRoutingKey,
+                AlertType.Emergencia => Domain.Constants.EmergenciaRoutingKey,
+                AlertType.Enfermeria => Domain.Constants.EnfermeriaRoutingKey,
+                AlertType.Mantenimiento => Domain.Constants.MantenimientoRoutingKey,
                 _ => throw new ArgumentException($"Tipo de alerta no soportado: {type}")
             };
         }

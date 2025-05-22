@@ -61,7 +61,7 @@ namespace MantenimientoConsumer
 
             // Configurar la cola de mantenimiento
             _channel.QueueDeclare(
-                queue: Constants.MantenimientoQueueName,
+                queue: Domain.Constants.MantenimientoQueueName,
                 durable: true,
                 exclusive: false,
                 autoDelete: false,
@@ -69,14 +69,14 @@ namespace MantenimientoConsumer
 
             // Vincular la cola al exchange directo con la routing key específica
             _channel.QueueBind(
-                queue: Constants.MantenimientoQueueName,
-                exchange: Constants.DirectExchangeName,
-                routingKey: Constants.MantenimientoRoutingKey);
+                queue: Domain.Constants.MantenimientoQueueName,
+                exchange: Domain.Constants.DirectExchangeName,
+                routingKey: Domain.Constants.MantenimientoRoutingKey);
 
             // Vincular la cola al exchange fanout para recibir todas las alertas críticas
             _channel.QueueBind(
-                queue: Constants.MantenimientoQueueName,
-                exchange: Constants.FanoutExchangeName,
+                queue: Domain.Constants.MantenimientoQueueName,
+                exchange: Domain.Constants.FanoutExchangeName,
                 routingKey: string.Empty);  // No importa para fanout
 
             // Configurar el consumer
@@ -109,20 +109,20 @@ namespace MantenimientoConsumer
             
             // Comenzar a consumir de la cola
             _channel.BasicConsume(
-                queue: Constants.MantenimientoQueueName,
+                queue: Domain.Constants.MantenimientoQueueName,
                 autoAck: false,
                 consumer: consumer);
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("✓ Conectado a RabbitMQ exitosamente");
-            Console.WriteLine($"✓ Consumiendo mensajes de la cola: {Constants.MantenimientoQueueName}");
+            Console.WriteLine($"✓ Consumiendo mensajes de la cola: {Domain.Constants.MantenimientoQueueName}");
             Console.ResetColor();
         }
 
         private static void HandleAlert(AlertEvent alert, string routingKey, string exchange)
         {
             bool isCritical = alert.Severity == AlertSeverity.Critica;
-            bool isFromFanout = exchange == Constants.FanoutExchangeName;
+            bool isFromFanout = exchange == Domain.Constants.FanoutExchangeName;
             
             // Colorear según severidad
             ConsoleColor color = alert.Severity switch

@@ -68,7 +68,7 @@ namespace EnfermeriaConsumer
 
             // Configurar la cola de enfermería
             _channel.QueueDeclare(
-                queue: Constants.EnfermeriaQueueName,
+                queue: Domain.Constants.EnfermeriaQueueName,
                 durable: true,
                 exclusive: false,
                 autoDelete: false,
@@ -76,14 +76,14 @@ namespace EnfermeriaConsumer
 
             // Vincular la cola al exchange directo con la routing key específica
             _channel.QueueBind(
-                queue: Constants.EnfermeriaQueueName,
-                exchange: Constants.DirectExchangeName,
-                routingKey: Constants.EnfermeriaRoutingKey);
+                queue: Domain.Constants.EnfermeriaQueueName,
+                exchange: Domain.Constants.DirectExchangeName,
+                routingKey: Domain.Constants.EnfermeriaRoutingKey);
 
             // Vincular la cola al exchange fanout para recibir todas las alertas críticas
             _channel.QueueBind(
-                queue: Constants.EnfermeriaQueueName,
-                exchange: Constants.FanoutExchangeName,
+                queue: Domain.Constants.EnfermeriaQueueName,
+                exchange: Domain.Constants.FanoutExchangeName,
                 routingKey: string.Empty);  // No importa para fanout
 
             // Configurar el consumer
@@ -116,20 +116,20 @@ namespace EnfermeriaConsumer
             
             // Comenzar a consumir de la cola
             _channel.BasicConsume(
-                queue: Constants.EnfermeriaQueueName,
+                queue: Domain.Constants.EnfermeriaQueueName,
                 autoAck: false,
                 consumer: consumer);
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("✓ Conectado a RabbitMQ exitosamente");
-            Console.WriteLine($"✓ Consumiendo mensajes de la cola: {Constants.EnfermeriaQueueName}");
+            Console.WriteLine($"✓ Consumiendo mensajes de la cola: {Domain.Constants.EnfermeriaQueueName}");
             Console.ResetColor();
         }
 
         private static void HandleAlert(AlertEvent alert, string routingKey, string exchange)
         {
             bool isCritical = alert.Severity == AlertSeverity.Critica;
-            bool isFromFanout = exchange == Constants.FanoutExchangeName;
+            bool isFromFanout = exchange == Domain.Constants.FanoutExchangeName;
             
             // Colorear según severidad
             ConsoleColor color = alert.Severity switch

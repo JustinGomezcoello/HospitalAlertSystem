@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ppyTZy1sSjE=",
+  "success": true,
+  "projectFilePath": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cristian.gomezcoello\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
+    "C:\\Users\\cristian.gomezcoello\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\cristian.gomezcoello\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
