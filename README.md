@@ -1,92 +1,104 @@
-# Hospital Alert System with RabbitMQ
+# 🏥 Hospital Alert System with RabbitMQ
 
-Este proyecto simula un sistema de alertas hospitalarias utilizando RabbitMQ para la mensajería entre productores y consumidores. El sistema implementa un caso real donde se emiten distintos tipos de alertas desde diferentes servicios (mantenimiento, emergencias, enfermería).
+This project simulates a hospital alert system using **RabbitMQ** for messaging between producers and consumers. It implements a real-world case where different types of alerts are sent from multiple services (maintenance, emergency, nursing).
 
-## Estructura del Proyecto
+---
 
-```
+## 🗂️ Project Structure
+
 HospitalAlertSystem/
 │
 ├── Domain/
-│   ├── AlertEvent.cs           // Modelo de datos compartido
-│   └── Constants.cs            // Constantes compartidas (exchanges, queues, routing keys)
+│ ├── AlertEvent.cs // Shared data model
+│ └── Constants.cs // Shared constants (exchanges, queues, routing keys)
 │
 ├── Producer/
-│   ├── Program.cs              // Produce 3 tipos de alertas diferentes
-│   └── Producer.csproj
+│ ├── Program.cs // Produces 3 types of alerts
+│ └── Producer.csproj
 │
 ├── Consumers/
-│   ├── EmergenciaConsumer/     // Consumidor especializado en alertas de emergencia
-│   │   ├── Program.cs
-│   │   └── EmergenciaConsumer.csproj
-│   ├── EnfermeriaConsumer/     // Consumidor especializado en alertas de enfermería
-│   │   ├── Program.cs
-│   │   └── EnfermeriaConsumer.csproj
-│   ├── MantenimientoConsumer/  // Consumidor especializado en alertas de mantenimiento
-│   │   ├── Program.cs
-│   │   └── MantenimientoConsumer.csproj
+│ ├── EmergenciaConsumer/ // Handles emergency alerts
+│ │ ├── Program.cs
+│ │ └── EmergenciaConsumer.csproj
+│ ├── EnfermeriaConsumer/ // Handles nursing alerts
+│ │ ├── Program.cs
+│ │ └── EnfermeriaConsumer.csproj
+│ ├── MantenimientoConsumer/ // Handles maintenance alerts
+│ │ ├── Program.cs
+│ │ └── MantenimientoConsumer.csproj
 │
-└── HospitalAlertSystem.sln     // Solución de Visual Studio
-```
+└── HospitalAlertSystem.sln // Visual Studio Solution file
 
-## Características Principales
 
-- **Modelo de dominio compartido**: `AlertEvent` con tipo de alerta, severidad, mensaje, ubicación y timestamp.
-- **Productor de alertas**: Genera aleatoriamente alertas de diferentes tipos y severidades.
-- **Consumidores especializados**: Cada uno maneja un tipo específico de alerta con lógica personalizada.
-- **Exchange directo**: Enruta alertas específicas a sus respectivos consumidores.
-- **Exchange fanout**: Distribuye alertas críticas a todos los consumidores, independientemente del tipo.
-- **Simulación de respuestas**: Cada consumidor simula diferentes respuestas según el tipo y severidad de la alerta.
+---
 
-## Requisitos
+## ✨ Key Features
 
-- .NET 7.0 o superior
-- RabbitMQ Server
-- Visual Studio 2022 o VS Code
+- **Shared domain model**: `AlertEvent` includes type, severity, message, location, and timestamp.
+- **Alert producer**: Randomly generates alerts with varying types and severities.
+- **Specialized consumers**: Each consumer handles a specific type of alert with custom logic.
+- **Direct exchange**: Routes specific alerts to their dedicated consumers.
+- **Fanout exchange**: Broadcasts critical alerts to all consumers, regardless of type.
+- **Simulated responses**: Each consumer simulates a different reaction based on alert type and severity.
 
-## Configuración de RabbitMQ
+---
 
-El proyecto está configurado para conectarse a un servidor RabbitMQ local con la configuración por defecto:
-- Host: localhost
-- Puerto: 5672
-- Usuario: guest
-- Contraseña: guest
+## 📋 Requirements
 
-Para utilizar un servidor RabbitMQ diferente, modifique la configuración en los archivos `Program.cs` de cada proyecto.
+- .NET 7.0 or higher  
+- RabbitMQ Server  
+- Visual Studio 2022 or Visual Studio Code
 
-## Ejecución del Proyecto
+---
 
-1. Asegúrese de que el servidor RabbitMQ esté en ejecución.
-2. Inicie los consumidores (ejecute cada uno en una terminal separada):
-   ```
-   dotnet run --project Consumers/EmergenciaConsumer/EmergenciaConsumer.csproj
-   dotnet run --project Consumers/EnfermeriaConsumer/EnfermeriaConsumer.csproj
-   dotnet run --project Consumers/MantenimientoConsumer/MantenimientoConsumer.csproj
-   ```
-3. Inicie el productor:
-   ```
-   dotnet run --project Producer/Producer.csproj
-   ```
-4 Ejecutar la interfaz gráfica AlertMonitorUI:
-   ```
-   dotnet run --project AlertMonitorUI
-   ```
+## ⚙️ RabbitMQ Configuration
 
-## Flujo de Mensajes
+The project is set to connect to a local RabbitMQ server using default credentials:
+- Host: `localhost`  
+- Port: `5672`  
+- Username: `guest`  
+- Password: `guest`
 
-1. El productor genera alertas aleatorias y las publica en el exchange directo con la routing key apropiada.
-2. Las alertas críticas también se publican en el exchange fanout para ser distribuidas a todos los consumidores.
-3. Cada consumidor procesa las alertas según su tipo y severidad, simulando diferentes respuestas.
+If you wish to connect to a different RabbitMQ server, update the connection settings in each `Program.cs` file.
 
-## Tipos de Alertas
+---
 
-- **Emergencia**: Alertas relacionadas con la atención médica urgente de pacientes.
-- **Enfermería**: Alertas relacionadas con cuidados de enfermería y administración de medicamentos.
-- **Mantenimiento**: Alertas relacionadas con la infraestructura y equipamiento del hospital.
+## ▶️ Running the Project
 
-## Severidades
+1. Ensure RabbitMQ Server is running.
+2. Start the consumers (each in a separate terminal):
 
-- **Baja**: Requiere atención pero no es urgente.
-- **Media**: Requiere atención en un tiempo razonable.
-- **Alta**: Requiere atención prioritaria.
-- **Crítica**: Requiere atención inmediata y se distribuye a todos los servicios.
+```bash
+dotnet run --project Consumers/EmergenciaConsumer/EmergenciaConsumer.csproj
+dotnet run --project Consumers/EnfermeriaConsumer/EnfermeriaConsumer.csproj
+dotnet run --project Consumers/MantenimientoConsumer/MantenimientoConsumer.csproj
+Start the producer:
+
+
+dotnet run --project Producer/Producer.csproj
+Launch the GUI Alert Monitor:
+
+
+dotnet run --project AlertMonitorUI
+🔄 Message Flow
+The producer generates random alerts and publishes them to the direct exchange with the appropriate routing key.
+
+Critical alerts are also published to a fanout exchange and distributed to all consumers.
+
+Each consumer processes the alerts according to its type and severity, simulating a response.
+
+🚨 Alert Types
+Emergency: Related to urgent medical attention.
+
+Nursing: Related to nursing care and medication administration.
+
+Maintenance: Related to hospital infrastructure and equipment.
+
+📶 Severities
+Low: Needs attention but not urgent.
+
+Medium: Should be addressed within a reasonable time.
+
+High: Requires priority attention.
+
+Critical: Needs immediate attention and is broadcasted to all services.
