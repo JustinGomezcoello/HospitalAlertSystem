@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\trabajo u\\HospitalAlertSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A14C25A-D538-B96B-5201-7C15673AB28D}|Producer\\Producer.csproj|d:\\trabajo u\\hospitalalertsystem\\producer\\producer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A14C25A-D538-B96B-5201-7C15673AB28D}|Producer\\Producer.csproj|solutionrelative:producer\\producer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\trabajo u\\hospitalalertsystem\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFA231-1EFB-7ACE-D21C-F90D19C8B3A8}|Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj|d:\\trabajo u\\hospitalalertsystem\\consumers\\mantenimientoconsumer\\mantenimientoconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AAFA231-1EFB-7ACE-D21C-F90D19C8B3A8}|Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj|solutionrelative:consumers\\mantenimientoconsumer\\mantenimientoconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34072A8F-5C73-BA91-1EF0-E0BA49AC30A8}|Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj|d:\\trabajo u\\hospitalalertsystem\\consumers\\enfermeriaconsumer\\enfermeriaconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34072A8F-5C73-BA91-1EF0-E0BA49AC30A8}|Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj|solutionrelative:consumers\\enfermeriaconsumer\\enfermeriaconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394F0BF0-4889-2949-8A53-42DB90BAAC68}|Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj|d:\\trabajo u\\hospitalalertsystem\\consumers\\emergenciaconsumer\\emergenciaconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{394F0BF0-4889-2949-8A53-42DB90BAAC68}|Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj|solutionrelative:consumers\\emergenciaconsumer\\emergenciaconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394F0BF0-4889-2949-8A53-42DB90BAAC68}|Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj|d:\\trabajo u\\hospitalalertsystem\\consumers\\emergenciaconsumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394F0BF0-4889-2949-8A53-42DB90BAAC68}|Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj|solutionrelative:consumers\\emergenciaconsumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producer",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Producer\\Producer.csproj",
+              "RelativeDocumentMoniker": "Producer\\Producer.csproj",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Producer\\Producer.csproj",
+              "RelativeToolTip": "Producer\\Producer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T20:00:31.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Domain",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T20:00:28.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MantenimientoConsumer",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
+              "RelativeDocumentMoniker": "Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
+              "RelativeToolTip": "Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T20:00:25.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnfermeriaConsumer",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj",
+              "RelativeDocumentMoniker": "Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj",
+              "RelativeToolTip": "Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T20:00:20.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmergenciaConsumer",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj",
+              "RelativeDocumentMoniker": "Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj",
+              "RelativeToolTip": "Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T20:00:09.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EmergenciaConsumer\\Program.cs",
+              "RelativeDocumentMoniker": "Consumers\\EmergenciaConsumer\\Program.cs",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EmergenciaConsumer\\Program.cs",
+              "RelativeToolTip": "Consumers\\EmergenciaConsumer\\Program.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAYwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:59:54.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-22T19:57:34.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
