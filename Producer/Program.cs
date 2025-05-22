@@ -73,7 +73,7 @@ namespace Producer
         {
             Console.WriteLine("\n🔔 Generador de alertas iniciado. Presione Ctrl+C para detener.\n");
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 10; i++)
             {
                 try
                 {
