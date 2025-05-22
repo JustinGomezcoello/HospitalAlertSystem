@@ -30,7 +30,6 @@ HospitalAlertSystem/
 └── HospitalAlertSystem.sln // Visual Studio Solution file
 
 
----
 
 ## ✨ Key Features
 
