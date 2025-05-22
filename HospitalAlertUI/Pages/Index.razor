@@ -1,0 +1,46 @@
+﻿@page "/"
+@inject HospitalAlertUI.Services.AlertService AlertService
+
+<h3>🩺 Alertas Hospitalarias en Tiempo Real</h3>
+
+@if (AlertService.GetAlerts().Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>🕒 Fecha</th>
+                <th>📋 Tipo</th>
+                <th>⚠ Severidad</th>
+                <th>📍 Ubicación</th>
+                <th>📝 Mensaje</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var alert in AlertService.GetAlerts())
+            {
+                <tr>
+                    <td>@alert.Timestamp.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@alert.Type</td>
+                    <td>@alert.Severity</td>
+                    <td>@alert.Location</td>
+                    <td>@alert.Message</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p><em>No hay alertas aún...</em></p>
+}
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        while (true)
+        {
+            StateHasChanged();
+            await Task.Delay(3000); // refresca cada 3 segundos
+        }
+    }
+}

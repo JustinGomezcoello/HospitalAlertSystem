@@ -3,31 +3,28 @@
   "WorkspaceRootPath": "D:\\trabajo u\\HospitalAlertSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A14C25A-D538-B96B-5201-7C15673AB28D}|Producer\\Producer.csproj|d:\\trabajo u\\hospitalalertsystem\\producer\\producer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7A14C25A-D538-B96B-5201-7C15673AB28D}|Producer\\Producer.csproj|solutionrelative:producer\\producer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|d:\\trabajo u\\hospitalalertsystem\\alertmonitorui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|solutionrelative:alertmonitorui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\trabajo u\\hospitalalertsystem\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|d:\\trabajo u\\hospitalalertsystem\\alertmonitorui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|solutionrelative:alertmonitorui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AAFA231-1EFB-7ACE-D21C-F90D19C8B3A8}|Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj|d:\\trabajo u\\hospitalalertsystem\\consumers\\mantenimientoconsumer\\mantenimientoconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4AAFA231-1EFB-7ACE-D21C-F90D19C8B3A8}|Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj|solutionrelative:consumers\\mantenimientoconsumer\\mantenimientoconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|d:\\trabajo u\\hospitalalertsystem\\alertmonitorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|solutionrelative:alertmonitorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34072A8F-5C73-BA91-1EF0-E0BA49AC30A8}|Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj|d:\\trabajo u\\hospitalalertsystem\\consumers\\enfermeriaconsumer\\enfermeriaconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{34072A8F-5C73-BA91-1EF0-E0BA49AC30A8}|Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj|solutionrelative:consumers\\enfermeriaconsumer\\enfermeriaconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|d:\\trabajo u\\hospitalalertsystem\\alertmonitorui\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|solutionrelative:alertmonitorui\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{394F0BF0-4889-2949-8A53-42DB90BAAC68}|Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj|d:\\trabajo u\\hospitalalertsystem\\consumers\\emergenciaconsumer\\emergenciaconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{394F0BF0-4889-2949-8A53-42DB90BAAC68}|Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj|solutionrelative:consumers\\emergenciaconsumer\\emergenciaconsumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|d:\\trabajo u\\hospitalalertsystem\\alertmonitorui\\alertmonitorui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|solutionrelative:alertmonitorui\\alertmonitorui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{394F0BF0-4889-2949-8A53-42DB90BAAC68}|Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj|d:\\trabajo u\\hospitalalertsystem\\consumers\\emergenciaconsumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{394F0BF0-4889-2949-8A53-42DB90BAAC68}|Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj|solutionrelative:consumers\\emergenciaconsumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|d:\\trabajo u\\hospitalalertsystem\\alertmonitorui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB376F5-E04D-4BB8-9ABE-77AE3DCD8039}|AlertMonitorUI\\AlertMonitorUI.csproj|solutionrelative:alertmonitorui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,92 +46,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Producer",
-              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Producer\\Producer.csproj",
-              "RelativeDocumentMoniker": "Producer\\Producer.csproj",
-              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Producer\\Producer.csproj",
-              "RelativeToolTip": "Producer\\Producer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-22T20:00:31.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Domain",
-              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj",
-              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj",
-              "RelativeToolTip": "Domain\\Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-22T20:00:28.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MantenimientoConsumer",
-              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
-              "RelativeDocumentMoniker": "Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
-              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
-              "RelativeToolTip": "Consumers\\MantenimientoConsumer\\MantenimientoConsumer.csproj",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Program.cs",
+              "RelativeDocumentMoniker": "AlertMonitorUI\\Program.cs",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Program.cs",
+              "RelativeToolTip": "AlertMonitorUI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-22T20:00:25.71Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:56:42.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EnfermeriaConsumer",
-              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj",
-              "RelativeDocumentMoniker": "Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj",
-              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj",
-              "RelativeToolTip": "Consumers\\EnfermeriaConsumer\\EnfermeriaConsumer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-22T20:00:20.729Z",
+              "Title": "Form1.resx",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Form1.resx",
+              "RelativeDocumentMoniker": "AlertMonitorUI\\Form1.resx",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Form1.resx",
+              "RelativeToolTip": "AlertMonitorUI\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-22T20:56:38.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EmergenciaConsumer",
-              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj",
-              "RelativeDocumentMoniker": "Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj",
-              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj",
-              "RelativeToolTip": "Consumers\\EmergenciaConsumer\\EmergenciaConsumer.csproj",
+              "Title": "AlertMonitorUI",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj",
+              "RelativeDocumentMoniker": "AlertMonitorUI\\AlertMonitorUI.csproj",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj*",
+              "RelativeToolTip": "AlertMonitorUI\\AlertMonitorUI.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-22T20:00:09.746Z",
+              "WhenOpened": "2025-05-22T20:56:32.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "AlertMonitorUI\\Form1.Designer.cs",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Form1.Designer.cs",
+              "RelativeToolTip": "AlertMonitorUI\\Form1.Designer.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:56:28.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EmergenciaConsumer\\Program.cs",
-              "RelativeDocumentMoniker": "Consumers\\EmergenciaConsumer\\Program.cs",
-              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\Consumers\\EmergenciaConsumer\\Program.cs",
-              "RelativeToolTip": "Consumers\\EmergenciaConsumer\\Program.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAYwAwAAAAoAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Form1.cs",
+              "RelativeDocumentMoniker": "AlertMonitorUI\\Form1.cs",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Form1.cs",
+              "RelativeToolTip": "AlertMonitorUI\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T19:59:54.019Z",
+              "WhenOpened": "2025-05-22T20:54:11.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-22T19:57:34.838Z",
-              "EditorCaption": ""
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Form1.cs",
+              "RelativeDocumentMoniker": "AlertMonitorUI\\Form1.cs",
+              "ToolTip": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\Form1.cs [Design]",
+              "RelativeToolTip": "AlertMonitorUI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:53:39.524Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
