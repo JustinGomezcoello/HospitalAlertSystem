@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Windows.Forms;
 using System.Collections.Generic;
-using AlertMonitorUI.Models;
+using Domain;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -72,13 +72,13 @@ namespace AlertMonitorUI
 
                 // Declarar exchanges
                 _channel.ExchangeDeclare(
-                    exchange: Constants.DirectExchangeName,
+                    exchange: Domain.Constants.DirectExchangeName,
                     type: ExchangeType.Direct,
                     durable: true,
                     autoDelete: false);
 
                 _channel.ExchangeDeclare(
-                    exchange: Constants.FanoutExchangeName,
+                    exchange: Domain.Constants.FanoutExchangeName,
                     type: ExchangeType.Fanout,
                     durable: true,
                     autoDelete: false);
@@ -89,23 +89,23 @@ namespace AlertMonitorUI
                 // Vincular a todas las routing keys en el exchange directo
                 _channel.QueueBind(
                     queue: queueName,
-                    exchange: Constants.DirectExchangeName,
-                    routingKey: Constants.EmergenciaRoutingKey);
+                    exchange: Domain.Constants.DirectExchangeName,
+                    routingKey: Domain.Constants.EmergenciaRoutingKey);
 
                 _channel.QueueBind(
                     queue: queueName,
-                    exchange: Constants.DirectExchangeName,
-                    routingKey: Constants.EnfermeriaRoutingKey);
+                    exchange: Domain.Constants.DirectExchangeName,
+                    routingKey: Domain.Constants.EnfermeriaRoutingKey);
 
                 _channel.QueueBind(
                     queue: queueName,
-                    exchange: Constants.DirectExchangeName,
-                    routingKey: Constants.MantenimientoRoutingKey);
+                    exchange: Domain.Constants.DirectExchangeName,
+                    routingKey: Domain.Constants.MantenimientoRoutingKey);
 
                 // Vincular al exchange fanout para alertas críticas
                 _channel.QueueBind(
                     queue: queueName,
-                    exchange: Constants.FanoutExchangeName,
+                    exchange: Domain.Constants.FanoutExchangeName,
                     routingKey: string.Empty);
 
                 // Configurar el consumidor
@@ -148,7 +148,7 @@ namespace AlertMonitorUI
         private void HandleAlert(AlertEvent alert, string routingKey, string exchange)
         {
             bool isCritical = alert.Severity == AlertSeverity.Critica;
-            bool isFromFanout = exchange == Constants.FanoutExchangeName;
+            bool isFromFanout = exchange == Domain.Constants.FanoutExchangeName;
 
             // Crear el item para la lista
             var item = new AlertListItem(alert);
@@ -266,8 +266,6 @@ namespace AlertMonitorUI
     public class AlertListItem
     {
         public AlertEvent Alert { get; }
-        public Color BackColor { get; set; } = Color.White;
-        public Color ForeColor { get; set; } = Color.Black;
 
         public AlertListItem(AlertEvent alert)
         {
