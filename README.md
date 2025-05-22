@@ -29,7 +29,11 @@ HospitalAlertSystem/
 │
 └── HospitalAlertSystem.sln // Visual Studio Solution file
 
+yaml
+Copy
+Edit
 
+---
 
 ## ✨ Key Features
 
@@ -65,21 +69,24 @@ If you wish to connect to a different RabbitMQ server, update the connection set
 ## ▶️ Running the Project
 
 1. Ensure RabbitMQ Server is running.
-
+2. Start the consumers (each in a separate terminal):
 
 ```bash
-2. Start the consumers (each in a separate terminal):
 dotnet run --project Consumers/EmergenciaConsumer/EmergenciaConsumer.csproj
 dotnet run --project Consumers/EnfermeriaConsumer/EnfermeriaConsumer.csproj
 dotnet run --project Consumers/MantenimientoConsumer/MantenimientoConsumer.csproj
-
 Start the producer:
+
+bash
+Copy
+Edit
 dotnet run --project Producer/Producer.csproj
-
 Launch the GUI Alert Monitor:
+
+bash
+Copy
+Edit
 dotnet run --project AlertMonitorUI
-
-
 🔄 Message Flow
 The producer generates random alerts and publishes them to the direct exchange with the appropriate routing key.
 
