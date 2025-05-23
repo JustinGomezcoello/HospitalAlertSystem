@@ -122,3 +122,10 @@ Medium: Should be addressed within a reasonable time.
 High: Requires priority attention.
 
 Critical: Needs immediate attention and is broadcasted to all services.
+
+```
+## 🧑‍💻 Author
+
+**Justin Gomezcoello**  
+Software Engineering Student at **Universidad de Las Américas (UDLA)** – Quito, Ecuador  
+GitHub: [@JustinGomezcoello](https://github.com/JustinGomezcoello)
