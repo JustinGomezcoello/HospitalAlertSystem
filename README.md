@@ -7,26 +7,25 @@ This project simulates a hospital alert system using **RabbitMQ** for messaging 
 ## 🗂️ Project Structure
 
 HospitalAlertSystem/
-│
 ├── Domain/
 │ ├── AlertEvent.cs // Shared data model
 │ └── Constants.cs // Shared constants (exchanges, queues, routing keys)
-│
 ├── Producer/
 │ ├── Program.cs // Produces 3 types of alerts
 │ └── Producer.csproj
-│
 ├── Consumers/
-│ ├── EmergenciaConsumer/ // Handles emergency alerts
+│ ├── EmergenciaConsumer/
 │ │ ├── Program.cs
 │ │ └── EmergenciaConsumer.csproj
-│ ├── EnfermeriaConsumer/ // Handles nursing alerts
+│ ├── EnfermeriaConsumer/
 │ │ ├── Program.cs
 │ │ └── EnfermeriaConsumer.csproj
-│ ├── MantenimientoConsumer/ // Handles maintenance alerts
-│ │ ├── Program.cs
-│ │ └── MantenimientoConsumer.csproj
-│
+│ └── MantenimientoConsumer/
+│ ├── Program.cs
+│ └── MantenimientoConsumer.csproj
+├── AlertMonitorUI/ // Windows Forms consumer alert UI
+│ ├── Form1.cs
+│ └── AlertMonitorUI.csproj
 └── HospitalAlertSystem.sln // Visual Studio Solution file
 
 
@@ -50,6 +49,19 @@ HospitalAlertSystem/
 - Visual Studio 2022 or Visual Studio Code
 
 ---
+---
+
+## 🐳 Docker - RabbitMQ Setup
+
+If you don't have RabbitMQ installed, you can run it with Docker:
+
+```bash
+docker run -d --hostname rabbitmq-host --name hospital-rabbitmq \
+  -p 5672:5672 -p 15672:15672 \
+  -e RABBITMQ_DEFAULT_USER=guest \
+  -e RABBITMQ_DEFAULT_PASS=guest \
+  rabbitmq:3-management
+
 
 ## ⚙️ RabbitMQ Configuration
 
