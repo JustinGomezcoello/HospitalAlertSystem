@@ -60,7 +60,7 @@ docker run -d --hostname rabbitmq-host --name hospital-rabbitmq -p 5672:5672 -p 
 ---
 
 ## ⚙️ RabbitMQ Configuration
-
+```bash
 The project is set to connect to a local RabbitMQ server using default credentials:
 - Host: `localhost`  
 - Port: `5672`  
