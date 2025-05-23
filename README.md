@@ -56,11 +56,8 @@ HospitalAlertSystem/
 If you don't have RabbitMQ installed, you can run it with Docker:
 
 ```bash
-docker run -d --hostname rabbitmq-host --name hospital-rabbitmq \
-  -p 5672:5672 -p 15672:15672 \
-  -e RABBITMQ_DEFAULT_USER=guest \
-  -e RABBITMQ_DEFAULT_PASS=guest \
-  rabbitmq:3-management
+docker run -d --hostname rabbitmq-host --name hospital-rabbitmq -p 5672:5672 -p 15672:15672 -e RABBITMQ_DEFAULT_USER=guest -e RABBITMQ_DEFAULT_PASS=guest rabbitmq:3-management
+
 
 
 ## ⚙️ RabbitMQ Configuration
