@@ -10,7 +10,7 @@ markdown
 Copiar
 Editar
 ## 🗂️ Project Structure
-
+```
 HospitalAlertSystem/
 ├── Domain/
 │ ├── AlertEvent.cs // Shared data model
@@ -32,7 +32,7 @@ HospitalAlertSystem/
 │ ├── Form1.cs // Windows Forms consumer alert UI
 │ └── AlertMonitorUI.csproj
 └── HospitalAlertSystem.sln // Visual Studio Solution file
-
+```
 
 ---
 
@@ -65,7 +65,7 @@ If you don't have RabbitMQ installed, you can run it quickly with Docker:
 
 ```bash
 docker run -d --hostname rabbitmq-host --name hospital-rabbitmq -p 5672:5672 -p 15672:15672 -e RABBITMQ_DEFAULT_USER=guest -e RABBITMQ_DEFAULT_PASS=guest rabbitmq:3-management
-
+```
 
 
 ## ⚙️ RabbitMQ Configuration
