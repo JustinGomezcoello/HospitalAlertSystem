@@ -4,6 +4,7 @@ This project simulates a hospital alert system using **RabbitMQ** for messaging 
 
 ---
 
+
 ## 🗂️ Project Structure
 
 HospitalAlertSystem/
@@ -28,7 +29,6 @@ HospitalAlertSystem/
 │ └── AlertMonitorUI.csproj
 └── HospitalAlertSystem.sln // Visual Studio Solution file
 
----
 
 ## ✨ Key Features
 
