@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnfermeriaConsumer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5138d9529e8cb6a161b7708240e1e4712008f1ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23d74b17c2c7633e5fa9541bcdc1b372e27e30c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnfermeriaConsumer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnfermeriaConsumer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

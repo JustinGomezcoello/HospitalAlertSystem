@@ -15,13 +15,13 @@ import { format, parseISO } from 'date-fns';
 import { es } from 'date-fns/locale';
 
 interface Alert {
-  Id: string | number;
-  Type: string | number;
-  Severity: string | number;
-  Message: string;
-  Location: string;
-  CreatedBy: string;
-  Timestamp: string;
+  id: string | number;
+  type: string | number;
+  severity: string | number;
+  message: string;
+  location: string;
+  createdBy: string;
+  timestamp: string;
 }
 
 interface AlertTableProps {
@@ -163,16 +163,16 @@ const AlertTable: React.FC<AlertTableProps> = ({ alerts }) => {
               <TableBody>
                 {alerts.map((alert) => (
                   <AnimatedTableRow
-                    key={alert.Id}
-                    sx={getSeverityColor(alert.Severity)}
+                    key={alert.id}
+                    sx={getSeverityColor(alert.severity)}
                   >
-                    <TableCell>{alert.Id}</TableCell>
-                    <TableCell>{getAlertType(alert.Type)}</TableCell>
-                    <TableCell>{getAlertSeverity(alert.Severity)}</TableCell>
-                    <TableCell>{alert.Message || 'Sin mensaje'}</TableCell>
-                    <TableCell>{alert.Location || 'Sin ubicación'}</TableCell>
-                    <TableCell>{alert.CreatedBy || 'Sistema'}</TableCell>
-                    <TableCell>{formatTimestamp(alert.Timestamp)}</TableCell>
+                    <TableCell>{alert.id}</TableCell>
+                    <TableCell>{getAlertType(alert.type)}</TableCell>
+                    <TableCell>{getAlertSeverity(alert.severity)}</TableCell>
+                    <TableCell>{alert.message || 'Sin mensaje'}</TableCell>
+                    <TableCell>{alert.location || 'Sin ubicación'}</TableCell>
+                    <TableCell>{alert.createdBy || 'Sistema'}</TableCell>
+                    <TableCell>{formatTimestamp(alert.timestamp)}</TableCell>
                   </AnimatedTableRow>
                 ))}
               </TableBody>
