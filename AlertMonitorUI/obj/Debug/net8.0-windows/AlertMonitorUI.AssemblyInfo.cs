@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlertMonitorUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74ba4d7dc83939c52519fa6919eca5856e6195f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5138d9529e8cb6a161b7708240e1e4712008f1ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlertMonitorUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlertMonitorUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
