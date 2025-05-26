@@ -97,7 +97,13 @@ dotnet run --project Producer/Producer.csproj
 
 
 Launch the GUI Alert Monitor:
-dotnet run --project AlertMonitorUI
+npm install
+npm run dev
+
+Lunch BackEnd
+cd server
+npm install
+npm run dev
 
 
 🔄 Message Flow
@@ -124,8 +130,8 @@ High: Requires priority attention.
 Critical: Needs immediate attention and is broadcasted to all services.
 
 ```
-## 🧑‍💻 Author
-
+## 🧑‍💻 Authors
+**Jhoel Suarez** 
 **Justin Gomezcoello**  
 Software Engineering Student at **Universidad de Las Américas (UDLA)** – Quito, Ecuador  
 GitHub: [@JustinGomezcoello](https://github.com/JustinGomezcoello)
