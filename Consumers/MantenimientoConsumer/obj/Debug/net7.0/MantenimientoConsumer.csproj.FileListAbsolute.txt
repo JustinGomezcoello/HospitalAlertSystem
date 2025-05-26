@@ -18,3 +18,23 @@ D:\trabajo u\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.
 D:\trabajo u\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.pdb
 D:\trabajo u\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.genruntimeconfig.cache
 D:\trabajo u\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\ref\MantenimientoConsumer.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\bin\Debug\net7.0\MantenimientoConsumer.exe
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\bin\Debug\net7.0\MantenimientoConsumer.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\bin\Debug\net7.0\Domain.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\bin\Debug\net7.0\MantenimientoConsumer.deps.json
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\bin\Debug\net7.0\MantenimientoConsumer.runtimeconfig.json
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\bin\Debug\net7.0\MantenimientoConsumer.pdb
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\bin\Debug\net7.0\Domain.pdb
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.csproj.AssemblyReference.cache
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.AssemblyInfoInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.AssemblyInfo.cs
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.csproj.CoreCompileInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.sourcelink.json
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\Mantenim.790C1022.Up2Date
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\refint\MantenimientoConsumer.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.pdb
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\MantenimientoConsumer.genruntimeconfig.cache
+C:\Users\jhoel\HospitalAlertSystem\Consumers\MantenimientoConsumer\obj\Debug\net7.0\ref\MantenimientoConsumer.dll

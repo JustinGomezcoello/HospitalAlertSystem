@@ -18,3 +18,23 @@ D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\r
 D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.pdb
 D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.genruntimeconfig.cache
 D:\trabajo u\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\ref\EnfermeriaConsumer.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\bin\Debug\net7.0\EnfermeriaConsumer.exe
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\bin\Debug\net7.0\EnfermeriaConsumer.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\bin\Debug\net7.0\Domain.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\bin\Debug\net7.0\EnfermeriaConsumer.deps.json
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\bin\Debug\net7.0\EnfermeriaConsumer.runtimeconfig.json
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\bin\Debug\net7.0\EnfermeriaConsumer.pdb
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\bin\Debug\net7.0\Domain.pdb
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.csproj.AssemblyReference.cache
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.AssemblyInfoInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.AssemblyInfo.cs
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.csproj.CoreCompileInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.sourcelink.json
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\Enfermer.DD61851C.Up2Date
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\refint\EnfermeriaConsumer.dll
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.pdb
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\EnfermeriaConsumer.genruntimeconfig.cache
+C:\Users\jhoel\HospitalAlertSystem\Consumers\EnfermeriaConsumer\obj\Debug\net7.0\ref\EnfermeriaConsumer.dll

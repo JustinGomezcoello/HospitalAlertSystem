@@ -18,3 +18,23 @@ D:\trabajo u\HospitalAlertSystem\Producer\obj\Debug\net7.0\refint\Producer.dll
 D:\trabajo u\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.pdb
 D:\trabajo u\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.genruntimeconfig.cache
 D:\trabajo u\HospitalAlertSystem\Producer\obj\Debug\net7.0\ref\Producer.dll
+C:\Users\jhoel\HospitalAlertSystem\Producer\bin\Debug\net7.0\Producer.exe
+C:\Users\jhoel\HospitalAlertSystem\Producer\bin\Debug\net7.0\Producer.deps.json
+C:\Users\jhoel\HospitalAlertSystem\Producer\bin\Debug\net7.0\Producer.runtimeconfig.json
+C:\Users\jhoel\HospitalAlertSystem\Producer\bin\Debug\net7.0\Producer.dll
+C:\Users\jhoel\HospitalAlertSystem\Producer\bin\Debug\net7.0\Producer.pdb
+C:\Users\jhoel\HospitalAlertSystem\Producer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\jhoel\HospitalAlertSystem\Producer\bin\Debug\net7.0\Domain.dll
+C:\Users\jhoel\HospitalAlertSystem\Producer\bin\Debug\net7.0\Domain.pdb
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.csproj.AssemblyReference.cache
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.AssemblyInfoInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.AssemblyInfo.cs
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.csproj.CoreCompileInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.sourcelink.json
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.csproj.Up2Date
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.dll
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\refint\Producer.dll
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.pdb
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\Producer.genruntimeconfig.cache
+C:\Users\jhoel\HospitalAlertSystem\Producer\obj\Debug\net7.0\ref\Producer.dll

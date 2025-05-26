@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\trabajo u\\HospitalAlertSystem\\HospitalAlertUI\\HospitalAlertUI.csproj": {}
+    "C:\\Users\\jhoel\\HospitalAlertSystem\\HospitalAlertUI\\HospitalAlertUI.csproj": {}
   },
   "projects": {
-    "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj": {
+    "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\cristian.gomezcoello\\.nuget\\packages\\",
-        "outputPath": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jhoel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cristian.gomezcoello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,29 +61,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\trabajo u\\HospitalAlertSystem\\HospitalAlertUI\\HospitalAlertUI.csproj": {
+    "C:\\Users\\jhoel\\HospitalAlertSystem\\HospitalAlertUI\\HospitalAlertUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\trabajo u\\HospitalAlertSystem\\HospitalAlertUI\\HospitalAlertUI.csproj",
+        "projectUniqueName": "C:\\Users\\jhoel\\HospitalAlertSystem\\HospitalAlertUI\\HospitalAlertUI.csproj",
         "projectName": "HospitalAlertUI",
-        "projectPath": "D:\\trabajo u\\HospitalAlertSystem\\HospitalAlertUI\\HospitalAlertUI.csproj",
-        "packagesPath": "C:\\Users\\cristian.gomezcoello\\.nuget\\packages\\",
-        "outputPath": "D:\\trabajo u\\HospitalAlertSystem\\HospitalAlertUI\\obj\\",
+        "projectPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\HospitalAlertUI\\HospitalAlertUI.csproj",
+        "packagesPath": "C:\\Users\\jhoel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\HospitalAlertUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cristian.gomezcoello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,8 +113,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj"
+              "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\Domain.csproj"
               }
             }
           }
@@ -145,6 +159,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -153,7 +185,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

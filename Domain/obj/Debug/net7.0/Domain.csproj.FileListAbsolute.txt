@@ -10,3 +10,15 @@ D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.dll
 D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.pdb
 D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\jhoel\HospitalAlertSystem\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\jhoel\HospitalAlertSystem\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\jhoel\HospitalAlertSystem\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\jhoel\HospitalAlertSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
