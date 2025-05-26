@@ -19,12 +19,12 @@ namespace AlertMonitorUI
         public DateTime Timestamp { get; set; }
     }
 
-
     public class Form1 : Form
     {
         private DataGridView dataGrid;
         private Button btnStart;
         private DataTable table;
+        private int alertCounter = 1;
 
         public Form1()
         {
@@ -59,13 +59,12 @@ namespace AlertMonitorUI
 
             // Columnas de la tabla
             table = new DataTable();
-            table.Columns.Add("Tipo");
+            table.Columns.Add("Tipo");        // Será el número consecutivo
             table.Columns.Add("Severidad");
             table.Columns.Add("Mensaje");
             table.Columns.Add("Ubicación");
             table.Columns.Add("Responsable");
             table.Columns.Add("Hora");
-
 
             dataGrid.DataSource = table;
             dataGrid.CellFormatting += DataGrid_CellFormatting;
@@ -91,39 +90,56 @@ namespace AlertMonitorUI
 
                     try
                     {
-                        // Intenta como objeto único
+                        // Intenta deserializar como objeto único
                         var alert = JsonSerializer.Deserialize<Alert>(json);
                         if (alert != null)
                         {
                             Invoke((MethodInvoker)delegate
                             {
-                                table.Rows.Add(alert.Type, alert.Severity, alert.Message, alert.Location, alert.CreatedBy, alert.Timestamp.ToString("yyyy-MM-dd HH:mm:ss"));
-
+                                table.Rows.Add(alertCounter.ToString(), alert.Severity, alert.Message, alert.Location, alert.CreatedBy, alert.Timestamp.ToString("yyyy-MM-dd HH:mm:ss"));
+                                alertCounter++;
                             });
                             return;
                         }
 
-                        // Si no funcionó, intenta como lista
+                        // Intenta deserializar como lista
                         var alerts = JsonSerializer.Deserialize<List<Alert>>(json);
                         if (alerts != null)
                         {
                             Invoke((MethodInvoker)delegate
                             {
                                 foreach (var a in alerts)
-                                    table.Rows.Add(a.Type, a.Severity, a.Message, a.Location, a.CreatedBy, a.Timestamp.ToString("yyyy-MM-dd HH:mm:ss"));
-
+                                {
+                                    table.Rows.Add(alertCounter.ToString(), a.Severity, a.Message, a.Location, a.CreatedBy, a.Timestamp.ToString("yyyy-MM-dd HH:mm:ss"));
+                                    alertCounter++;
+                                }
                             });
                             return;
                         }
 
-                        // Si llegó aquí, no se pudo deserializar
                         throw new Exception("Formato desconocido.");
                     }
                     catch
                     {
                         Invoke((MethodInvoker)delegate
                         {
-                            table.Rows.Add("ERROR", cola, "", json, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            try
+                            {
+                                using var document = JsonDocument.Parse(json);
+                                var root = document.RootElement;
+
+                                string message = root.GetProperty("Message").GetString() ?? "";
+                                string createdBy = root.GetProperty("CreatedBy").GetString() ?? "";
+
+                                table.Rows.Add(alertCounter.ToString(), cola, message, json, createdBy, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            }
+                            catch
+                            {
+                                // Si también falla la lectura manual
+                                table.Rows.Add(alertCounter.ToString(), cola, "", json, "", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            }
+
+                            alertCounter++;
                         });
                     }
                 };
@@ -150,5 +166,3 @@ namespace AlertMonitorUI
         }
     }
 }
-
-
