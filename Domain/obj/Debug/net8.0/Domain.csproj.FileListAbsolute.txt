@@ -1,0 +1,12 @@
+D:\trabajo u\HospitalAlertSystem\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\trabajo u\HospitalAlertSystem\Domain\bin\Debug\net8.0\Domain.dll
+D:\trabajo u\HospitalAlertSystem\Domain\bin\Debug\net8.0\Domain.pdb
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\Domain.dll
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\Domain.pdb
+D:\trabajo u\HospitalAlertSystem\Domain\obj\Debug\net8.0\ref\Domain.dll

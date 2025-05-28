@@ -1,0 +1,105 @@
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\appsettings.Development.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\appsettings.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugProxy.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.staticwebassets.runtime.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.staticwebassets.endpoints.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.exe
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.deps.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.runtimeconfig.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.pdb
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Domain.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Domain.pdb
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.csproj.AssemblyReference.cache
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.AssemblyInfoInputs.cache
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.AssemblyInfo.cs
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.csproj.CoreCompileInputs.cache
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.MvcApplicationPartsAssemblyInfo.cache
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.RazorAssemblyInfo.cache
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.RazorAssemblyInfo.cs
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.sourcelink.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\scopedcss\bundle\HospitalAlertUI.styles.css
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\scopedcss\projectbundle\HospitalAlertUI.bundle.scp.css
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets.build.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets.development.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.HospitalAlertUI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.HospitalAlertUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.build.HospitalAlertUI.props
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HospitalAlertUI.props
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HospitalAlertUI.props
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\Hospital.50D25B0D.Up2Date
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\refint\HospitalAlertUI.dll
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.pdb
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.genruntimeconfig.cache
+D:\trabajo u\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\ref\HospitalAlertUI.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\appsettings.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.staticwebassets.runtime.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.staticwebassets.endpoints.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.exe
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.deps.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.runtimeconfig.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\HospitalAlertUI.pdb
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Azure.Core.Amqp.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Azure.Messaging.ServiceBus.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Microsoft.Azure.Amqp.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\System.ClientModel.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Domain.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\bin\Debug\net7.0\Domain.pdb
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.csproj.AssemblyReference.cache
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.AssemblyInfoInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.AssemblyInfo.cs
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.csproj.CoreCompileInputs.cache
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.RazorAssemblyInfo.cache
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.RazorAssemblyInfo.cs
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.sourcelink.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\scopedcss\bundle\HospitalAlertUI.styles.css
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\scopedcss\projectbundle\HospitalAlertUI.bundle.scp.css
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.HospitalAlertUI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.HospitalAlertUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.build.HospitalAlertUI.props
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HospitalAlertUI.props
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HospitalAlertUI.props
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\Hospital.50D25B0D.Up2Date
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\refint\HospitalAlertUI.dll
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.pdb
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\HospitalAlertUI.genruntimeconfig.cache
+C:\Users\jhoel\HospitalAlertSystem\HospitalAlertUI\obj\Debug\net7.0\ref\HospitalAlertUI.dll
