@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhoel\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj": {}
+    "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhoel\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj": {
+    "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhoel\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj",
+        "projectUniqueName": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj",
         "projectName": "AlertMonitorUI",
-        "projectPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj",
-        "packagesPath": "C:\\Users\\jhoel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\AlertMonitorUI\\obj\\",
+        "projectPath": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\AlertMonitorUI.csproj",
+        "packagesPath": "C:\\Users\\cristian.gomezcoello\\.nuget\\packages\\",
+        "outputPath": "D:\\trabajo u\\HospitalAlertSystem\\AlertMonitorUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jhoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cristian.gomezcoello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.15.0, )"
+            },
             "RabbitMQ.Client": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -75,7 +79,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

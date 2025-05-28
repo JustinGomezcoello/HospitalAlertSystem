@@ -10,8 +10,8 @@ namespace EmergenciaConsumer
 {
     class Program
     {
-        private const string ConnectionString = "XXXXX";
-        private const string QueueName = "jhoel";
+        private const string ConnectionString = "ABCDEFGHI";
+        private const string QueueName = "sendAlertEvent";
         private static ServiceBusClient? _client;
         private static ServiceBusProcessor? _processor;
 

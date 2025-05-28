@@ -7,7 +7,7 @@ using Domain;
 namespace Producer
 {
     class Program
-    {        private const string ConnectionString = "XXXXX";
+    {        private const string ConnectionString = "ABCDEFGHI";
         private const string QueueName = "alerts";
         private static ServiceBusClient? _client;
         private static ServiceBusSender? _sender;

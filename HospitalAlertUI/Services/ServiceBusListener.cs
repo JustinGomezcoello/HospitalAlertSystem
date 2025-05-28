@@ -5,7 +5,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace HospitalAlertUI.Services
 {    public class ServiceBusListener : BackgroundService
-    {        private const string ConnectionString = "XXXXX";
+    {        private const string ConnectionString = "ABCDEFGHI";
         private const string QueueName = "alerts";
         private readonly AlertService _alertService;
         private ServiceBusClient? _client;

@@ -713,23 +713,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhoel\\.nuget\\packages\\": {},
+    "C:\\Users\\cristian.gomezcoello\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhoel\\HospitalAlertSystem\\Producer\\Producer.csproj",
+      "projectUniqueName": "D:\\trabajo u\\HospitalAlertSystem\\Producer\\Producer.csproj",
       "projectName": "Producer",
-      "projectPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\Producer\\Producer.csproj",
-      "packagesPath": "C:\\Users\\jhoel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\Producer\\obj\\",
+      "projectPath": "D:\\trabajo u\\HospitalAlertSystem\\Producer\\Producer.csproj",
+      "packagesPath": "C:\\Users\\cristian.gomezcoello\\.nuget\\packages\\",
+      "outputPath": "D:\\trabajo u\\HospitalAlertSystem\\Producer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jhoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cristian.gomezcoello\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -745,8 +745,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\Domain.csproj"
+            "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj"
             }
           }
         }
@@ -787,30 +787,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

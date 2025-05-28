@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qp1hoDqPj+4=",
+  "dgSpecHash": "jk58dwlvYSk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhoel\\HospitalAlertSystem\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jhoel\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\jhoel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\jhoel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\trabajo u\\HospitalAlertSystem\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

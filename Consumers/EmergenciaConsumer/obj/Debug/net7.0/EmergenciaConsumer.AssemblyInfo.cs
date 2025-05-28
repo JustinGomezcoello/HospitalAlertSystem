@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmergenciaConsumer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9dd429cb60faa57f145519a424fe02be0a2967a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f60edcc30e69158e38e43d9ef7db806fafbdafb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmergenciaConsumer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmergenciaConsumer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
